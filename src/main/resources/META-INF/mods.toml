@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "All rights reserved"
+
+[[mods]]
+modId = "instantcamera"
+version = "${file.jarVersion}"
+displayName = "Instant Camera"
+logoFile = "instantcamera_logo.png"
+authors = "Shainy"
+description = "Say, cheese!"
+
+[[dependencies.instantcamera]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.instantcamera]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,1.20)"
+ordering = "NONE"
+side = "BOTH"

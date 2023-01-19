@@ -1,0 +1,41 @@
+{
+  "item.instant_camera.fail": {
+    "subtitle": "subtitles.item.instantcamera.instant_camera.fail",
+    "sounds": [
+      "random/click"
+    ]
+  },
+  "item.instant_camera.snap": {
+    "subtitle": "subtitles.item.instantcamera.instant_camera.snap",
+    "sounds": [
+      "instantcamera:item/instant_camera/snap1",
+      "instantcamera:item/instant_camera/snap2",
+      "instantcamera:item/instant_camera/snap3"
+    ]
+  },
+  "item.instant_camera.use": {
+    "subtitle": "subtitles.item.instantcamera.instant_camera.use",
+    "sounds": [
+      {
+        "name": "item/spyglass/use",
+        "pitch": 1.15,
+        "volume": 0.5
+      },
+      {
+        "name": "item/spyglass/use",
+        "pitch": 1.33,
+        "volume": 0.5
+      },
+      {
+        "name": "item/spyglass/use",
+        "pitch": 1.4,
+        "volume": 0.5
+      },
+      {
+        "name": "item/spyglass/use",
+        "pitch": 1.55,
+        "volume": 0.5
+      }
+    ]
+  }
+}
